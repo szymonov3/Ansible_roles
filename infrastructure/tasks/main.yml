@@ -6,7 +6,7 @@
 
 - name: Git checkout
   git:
-    repo: "{{ git_repository }}"
+    repo: "{{ https://github.com/szymonov3/App_of_apps.git }}"
     dest: "{{ deployment_path }}"
     version: "{{ git_branch }}"
 
